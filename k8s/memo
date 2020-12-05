@@ -7,14 +7,14 @@ minikube start
 🔎  Kubernetes コンポーネントを検証しています...
 🌟  有効なアドオン: storage-provisioner, default-storageclass, dashboard
 🏄  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
-user@usernoMacBook-Air k8s % minikube dashboard
+k8s % minikube dashboard
 🤔  ダッシュボードの状態を確認しています...
 🚀  プロキシを起動しています...
 🤔  プロキシの状態を確認しています...
 🎉  Opening http://127.0.0.1:49813/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
 kubectl apply -f nginx-pod.yaml
 kubectl apply -f nginx-service.yaml
-user@usernoMacBook-Air k8s % kubectl get service
+k8s % kubectl get service
 NAME               TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE
 kubernetes         ClusterIP   10.96.0.1        <none>        443/TCP        42h
 my-first-service   NodePort    10.100.230.222   <none>        80:30181/TCP   10h
