@@ -18,5 +18,7 @@ k8s % kubectl get service
 NAME               TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)        AGE
 kubernetes         ClusterIP   10.96.0.1        <none>        443/TCP        42h
 my-first-service   NodePort    10.100.230.222   <none>        80:30181/TCP   10h
+minikube ip
+127.0.0.1
 curl http://127.0.0.1:30000
 curl: (7) Failed to connect to 127.0.0.1 port 30000: Connection refused
