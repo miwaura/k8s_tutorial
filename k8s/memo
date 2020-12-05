@@ -1,0 +1,3 @@
+kubectl apply -f nginx-pod.yaml
+kubectl apply -f nginx-service.yaml
+curl http://127.0.0.1:30000
